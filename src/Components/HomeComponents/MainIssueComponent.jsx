@@ -3,24 +3,15 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Spinner from '../unitComponent/Spinner';
 import IssuesComponent from './IssuesComponent';
+import GetDataFromAPI from '../../HelperFun/GetDataFromApi';
+
 
 const MainIssuesComponent=()=> {
-
-    const getData=async()=>{
-        try {
-            const res = await fetch("https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/issues");
-            const resjson= await res.json();
-            return resjson;
-        } catch (error) {
-            console.error(error);
-             return [];
-        }
-   }
 
     const [data,setData]=useState([]);
 
     useEffect(()=>{
-        getData().then((res)=>setData(res)).catch((err)=>setData([]));
+        GetDataFromAPI("https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/issues").then((res)=>setData(res)).catch((err)=>setData([]));
     },[])
 
 

@@ -18,7 +18,7 @@ export default function NavBar() {
     <div id="nav-container">
       <nav>
         <div>
-          <Link to="/"><label className="logo">GithubAPI-Issues</label></Link>
+          <Link to="/"><label className="logo">GithubRepoIssues</label></Link>
         </div>
   
       </nav>

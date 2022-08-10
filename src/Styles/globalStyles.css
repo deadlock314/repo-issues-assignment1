@@ -1,7 +1,7 @@
 :root{
     margin: 0;
     padding: 0;
-    --navfootercolor:#b6691b;
+    --navfootercolor:#1b7bb6;
 }
 *{
     padding: 0;
@@ -16,7 +16,7 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
     text-decoration: none;
-    background-color: #f4f0eb;
+    background-color: #fbf9f7;
 
 }
 

@@ -14,3 +14,15 @@
 .icon{
     width: 10px;
 }
+.repo-name{
+    padding: 3vw 0 0 5vw;
+    font-size: 1.3rem;
+}
+.next-page-btn{
+    all: unset;
+    cursor: pointer;
+    color: rgb(32, 29, 130);
+    font-size: 1.3rem;
+    padding: 3vw 45vw;
+    font-weight: bolder;
+}

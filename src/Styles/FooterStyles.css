@@ -42,7 +42,7 @@
 .footer-li-icontainer li{
     width: 40px;
     height: 40px;
-    background-color:#a7720f;
+    background-color:#0f24ad;
     text-align: center;
     border-radius: 50%;
 }
@@ -58,7 +58,7 @@
 }
 
 #cpright{
-    background-color: #804f06;
+    background-color: #0f24ad;
     text-align: center;
     padding: 10px 0;
     font-family: Helvetica, sans-serif;
