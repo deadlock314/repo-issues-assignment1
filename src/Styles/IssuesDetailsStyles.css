@@ -1,0 +1,15 @@
+.issues-details-div{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+}
+.issues-details-title{
+    all: unset;
+    margin: 20px 5vw 50px 0 ;
+    font-size: 1.5rem;
+}
+.issues-details-body{
+    margin: 20px;
+    font-size: 1.2rem;
+}

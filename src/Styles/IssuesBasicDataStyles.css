@@ -1,0 +1,15 @@
+
+.issues-basic-data-div{
+
+    display: flex;
+    border: 2px solid black;
+    padding: 20px 4vw;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0 4vw;
+    
+}
+.issues-basic-data-title{
+    all: unset;
+    font-size: 1.2rem;
+}

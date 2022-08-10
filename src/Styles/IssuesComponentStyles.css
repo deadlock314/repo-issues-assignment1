@@ -1,0 +1,16 @@
+.issue-component-search{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+  
+    margin: 20px 4vw;
+}
+.issue-component-search-input{
+    all: unset;
+    width: 100%;
+    padding: 7px;
+    
+}
+.icon{
+    width: 10px;
+}

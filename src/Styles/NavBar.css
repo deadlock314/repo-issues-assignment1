@@ -1,0 +1,26 @@
+
+#nav-container{
+  padding-bottom: 60px;
+}
+  nav{
+    background: var(--navfootercolor);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+        
+  }
+
+  label.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+  
+  
