@@ -43,7 +43,7 @@ const Footer=()=> {
             </div>   
         </div>
         </div>
-        <p id='cpright'>  &copy; Copyright { new Date().getFullYear()} GithubAPI-Issues</p>
+        <p id='cpright'>  &copy; Copyright { new Date().getFullYear()} GithubRepoIssues</p>
         </footer>
         </>
      );

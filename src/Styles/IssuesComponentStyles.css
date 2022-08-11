@@ -11,18 +11,25 @@
     padding: 7px;
     
 }
-.icon{
-    width: 10px;
+.search-icon{
+    width: 20px;
+    padding: 10px 20px;
 }
 .repo-name{
-    padding: 3vw 0 0 5vw;
+    padding: 2vw 0 0 5vw;
     font-size: 1.3rem;
 }
-.next-page-btn{
-    all: unset;
-    cursor: pointer;
-    color: rgb(32, 29, 130);
+.next-page{
+   display: flex;
     font-size: 1.3rem;
-    padding: 3vw 45vw;
+    padding: 3vw 30vw;
     font-weight: bolder;
+}
+.page-num{
+    margin-left: 1.5vw;
+    cursor: pointer;
+    padding: 2px 7px;
+    color: #FFF;
+    background-color: rgb(49, 92, 222);
+    border-radius: 5px;
 }

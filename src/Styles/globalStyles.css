@@ -26,7 +26,7 @@ padding: 0;
 
 .spinner,.btn-spinner {
     border: solid 10px #b6b6ad;
-    border-top: solid 10px rgba(12, 7, 7, 0.863);
+    border-top: solid 10px rgba(24, 40, 185, 0.863);
     border-radius: 50%;
     height: 5vw;
     width: 5vw;
@@ -40,7 +40,7 @@ padding: 0;
     
     border: solid 6px #ececec;
     border-radius: 50%;
-    border-top: solid 6px rgba(218, 12, 149, 0.863);
+    border-top: solid 6px rgba(29, 61, 202, 0.863);
     height: 26px;
     width: 26px;
     margin: 3px 112px;
